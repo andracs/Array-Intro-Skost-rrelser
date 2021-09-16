@@ -42,7 +42,7 @@ public class ArrayEksempler {
         }
 
 
-        System.out.println("\nVariabler i Java kan indeholde konkrete værdier ELLER referencer i hukommelsen (RAM)");
+        System.out.println("\nVariable i Java kan indeholde konkrete værdier ELLER referencer til en adresse i hukommelsen (RAM)");
         // Kopierer x'ens værdi ind i y -- eller kopierer den blot referencen? Afprøv ved at køre programmet.
         int x = 2;
         int y = x;
@@ -70,7 +70,7 @@ public class ArrayEksempler {
         for (String navn : navne) {     // Enhanced for loop, se på https://books.trinket.io/thinkjava2/chapter7.html#sec93
             System.out.println(navn);
             if (navn.equals("Marcus")) System.out.println("Marcus er fundet!"); // Eksempel på søgning
-        }
+        }   
 
     }
 }

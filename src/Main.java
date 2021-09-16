@@ -9,6 +9,10 @@ public class Main {
 
         // TODO Kommentar
         
+        // DENNE LINJE HAR JEG FX RETTET PÅ NETTET
+        
+        // Denne linje kommer Torben
+        
         squareRoot(10);
 
 
